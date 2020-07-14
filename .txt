@@ -1,0 +1,14 @@
+108 - Tích hợp material-UI
+    - npm install @material-ui/core
+    - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    - <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    - npm install @material-ui/icons
+109  CSS-in-JS Material-UI
+
+110 : xây dựng giao diện
+
+112 : 
+    - STATUSES duyệt qua  lần đầu tiên index = 0 nhận đc STATUSES
+    có value: 0, label:"READY" 
+    - Lúc đó filter trong listtask đc tạo ra (filter những object có 
+    status là 0("READY") thì render nó ra (task) )
