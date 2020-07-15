@@ -9,21 +9,29 @@
 
 
 
-112 : 
+112 :
     - STATUSES duyệt qua  lần đầu tiên index = 0 nhận đc STATUSES
-    có value: 0, label:"READY" 
-    - Lúc đó filter trong listtask đc tạo ra (filter những object có 
+    có value: 0, label:"READY"
+    - Lúc đó filter trong listtask đc tạo ra (filter những object có
     status là 0("READY") thì render nó ra (task) )
 
 113 : Tách return trong  task  sang TaskList
         - Chia nhỏ TaskList sang TaskItem
 
-114 : xây dựng dialog 
+114 : xây dựng dialog
         - Tách ra Components TaskFrom
 
+
+115 : cài đặt và sử dụng eslint
+        - npm install  eslint --save-dev
+        - code es5 (not ES6)
+
+119 :Editorconfig
+    -add  extension EditorConfig for VS Code
+	-config lại
 Note :  -Containers là nơi connect tới redux lấy các state và dispatch các
-        action 
+        action
         - Components : dùng để hiển thị
 
-Tree : 
+Tree :
         - từ App -> Taskboard -> TaskList ->TaskItem
